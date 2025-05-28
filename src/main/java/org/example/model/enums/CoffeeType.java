@@ -20,9 +20,9 @@ public enum CoffeeType {
   }
 
   public static CoffeeType fromString(String value) {
-    for (CoffeeType b : CoffeeType.values()) {
-      if (b.value.equals(value)) {
-        return b;
+    for (CoffeeType t : CoffeeType.values()) {
+      if (t.value.equals(value)) {
+        return t;
       }
     }
     throw new IllegalArgumentException("Unexpected value '" + value + "'");

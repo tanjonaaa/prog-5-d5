@@ -3,7 +3,7 @@ package org.example.model;
 import org.example.model.enums.CoffeeType;
 
 public class Coffee {
-  private static final int COFFEE_UNIT_PRICE_IN_JETONS = 1;
+  private static final int COFFEE_UNIT_PRICE_IN_JETONS = 3;
   private final CoffeeType type;
   private final boolean milk;
   private final boolean sugar;
